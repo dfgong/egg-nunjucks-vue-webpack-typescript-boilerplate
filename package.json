@@ -1,0 +1,76 @@
+{
+  "name": "clubts",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "egg": {
+    "typescript": true,
+    "declarations": true
+  },
+  "scripts": {
+    "start": "set NODE_ENV=production && set EGG_SERVER_ENV=testpro && egg-scripts start",
+    "stop": "egg-scripts stop --title=egg-server-clubts",
+    "dev": "egg-bin dev -r egg-ts-helper/register",
+    "debug": "egg-bin debug",
+    "test-local": "egg-bin test -r egg-ts-helper/register",
+    "test": "npm run lint -- --fix && npm run test-local",
+    "cov": "egg-bin cov",
+    "tsc": "ets && tsc -p tsconfig.json",
+    "ci": "npm run lint && npm run cov && npm run tsc",
+    "autod": "autod",
+    "lint": "tslint --project . -c tslint.json",
+    "clean": "ets clean",
+    "build": "easy build"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.3.4",
+    "@types/jquery": "^3.3.29",
+    "@types/lodash": "^4.14.122",
+    "egg": "^2.6.1",
+    "egg-scripts": "^2.6.0",
+    "egg-view-nunjucks": "^2.2.0",
+    "jquery": "^3.3.1",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/plugin-transform-runtime": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@types/mocha": "^2.2.40",
+    "@types/node": "^7.0.12",
+    "@types/supertest": "^2.0.0",
+    "autod": "^3.0.1",
+    "autod-egg": "^1.1.0",
+    "babel-loader": "^8.0.0-beta.0",
+    "easywebpack-html": "^4.0.0",
+    "egg-bin": "^4.11.0",
+    "egg-ci": "^1.8.0",
+    "egg-mock": "^3.16.0",
+    "egg-ts-helper": "^1.23.0",
+    "egg-webpack": "^4.4.9",
+    "imagemin-webpack-plugin": "^2.4.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "sass-resources-loader": "^2.0.0",
+    "ts-loader": "^5.3.3",
+    "tslib": "^1.9.0",
+    "tslint": "^5.0.0",
+    "tslint-config-egg": "^1.0.0",
+    "typescript": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "ci": {
+    "version": "8"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "eslintIgnore": [
+    "coverage"
+  ],
+  "author": "",
+  "license": "MIT"
+}

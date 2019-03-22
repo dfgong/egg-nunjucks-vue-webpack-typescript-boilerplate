@@ -1,0 +1,34 @@
+{
+  "aa/aa.js": "/public/js/chunk/aa/aa.js",
+  "aa/aa.js.map": "/public/js/chunk/aa/aa.js.map",
+  "home/home.css": "/public/css/home/home.css",
+  "home/home.js": "/public/js/chunk/home/home.js",
+  "home/home.css.map": "/public/css/home/home.css.map",
+  "home/home.js.map": "/public/js/chunk/home/home.js.map",
+  "runtime.js": "/public/js/runtime.js",
+  "runtime.js.map": "/public/js/runtime.js.map",
+  "img/home.scss": "/public/img/00.7454ba80.png",
+  "deps": {
+    "aa/aa.js": {
+      "js": [
+        "/public/js/runtime.js",
+        "/public/js/chunk/aa/aa.js"
+      ],
+      "css": []
+    },
+    "home/home.js": {
+      "js": [
+        "/public/js/runtime.js",
+        "/public/js/chunk/home/home.js"
+      ],
+      "css": [
+        "/public/css/home/home.css"
+      ]
+    }
+  },
+  "info": {
+    "publicPath": "/public/",
+    "buildPath": "\\app\\public",
+    "mapped": true
+  }
+}
