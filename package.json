@@ -42,6 +42,7 @@
     "autod": "^3.0.1",
     "autod-egg": "^1.1.0",
     "babel-loader": "^8.0.0-beta.0",
+    "easywebpack-cli": "^4.3.5",
     "easywebpack-html": "^4.0.0",
     "egg-bin": "^4.11.0",
     "egg-ci": "^1.8.0",
