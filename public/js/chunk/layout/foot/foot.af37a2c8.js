@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([["layout/foot/foot"],{"./app/web/layout/foot/foot.ts":function(o,t,p){}},[["./app/web/layout/foot/foot.ts","runtime"]]]);

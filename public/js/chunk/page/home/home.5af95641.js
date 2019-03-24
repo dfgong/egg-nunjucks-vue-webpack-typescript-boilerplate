@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([["page/home/home"],{"./app/web/page/home/home.scss":function(e,o,p){},"./app/web/page/home/home.ts":function(e,o,p){"use strict";Object.defineProperty(o,"__esModule",{value:!0}),p("./app/web/page/home/home.scss");let s=5;s=4,console.log(s+1)}},[["./app/web/page/home/home.ts","runtime"]]]);

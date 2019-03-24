@@ -1,0 +1,39 @@
+2019-03-23 11:57:29,166 INFO 1304 [egg:logger] init all loggers with options: {"dir":"E:\\clubts\\logs\\clubts","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"clubts-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-03-23 11:57:29,808 INFO 1304 [egg:core] dump config after load, 10ms
+2019-03-23 11:57:29,881 INFO 1304 [egg-watcher] Start watching: ["E:\\clubts\\app","E:\\clubts\\config","E:\\clubts\\mocks","E:\\clubts\\mocks_proxy","E:\\clubts\\app.js"]
+2019-03-23 11:57:29,881 INFO 1304 [egg-watcher] Start watching: "E:\\clubts\\app"
+2019-03-23 11:57:29,882 INFO 1304 [egg-watcher] Start watching: "E:\\clubts\\config"
+2019-03-23 11:57:29,882 INFO 1304 [egg-watcher] Start watching: "E:\\clubts\\mocks"
+2019-03-23 11:57:29,882 INFO 1304 [egg-watcher] Start watching: "E:\\clubts\\mocks_proxy"
+2019-03-23 11:57:29,882 INFO 1304 [egg-watcher] Start watching: "E:\\clubts\\app.js"
+2019-03-23 11:57:29,882 INFO 1304 [egg-watcher:agent] watcher start success
+2019-03-23 11:57:29,965 INFO 1304 [egg:core] dump config after ready, 10ms
+2019-03-24 21:44:37,372 INFO 9468 [egg:logger] init all loggers with options: {"dir":"E:\\clubts\\logs\\clubts","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"clubts-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-03-24 21:44:38,008 INFO 9468 [egg:core] dump config after load, 5ms
+2019-03-24 21:44:38,080 INFO 9468 [egg-watcher] Start watching: ["E:\\clubts\\app","E:\\clubts\\config","E:\\clubts\\mocks","E:\\clubts\\mocks_proxy","E:\\clubts\\app.js"]
+2019-03-24 21:44:38,080 INFO 9468 [egg-watcher] Start watching: "E:\\clubts\\app"
+2019-03-24 21:44:38,081 INFO 9468 [egg-watcher] Start watching: "E:\\clubts\\config"
+2019-03-24 21:44:38,081 INFO 9468 [egg-watcher] Start watching: "E:\\clubts\\mocks"
+2019-03-24 21:44:38,081 INFO 9468 [egg-watcher] Start watching: "E:\\clubts\\mocks_proxy"
+2019-03-24 21:44:38,081 INFO 9468 [egg-watcher] Start watching: "E:\\clubts\\app.js"
+2019-03-24 21:44:38,081 INFO 9468 [egg-watcher:agent] watcher start success
+2019-03-24 21:44:38,117 INFO 9468 [egg:core] dump config after ready, 4ms
+2019-03-24 21:45:54,310 INFO 9468 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"E:\\clubts\\app\\web\\page\\home\\home.html","stat":{"dev":262705,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":1407374883645604,"size":639,"atimeMs":1553310419569.2,"mtimeMs":1553435154309.5,"ctimeMs":1553435154309.5,"birthtimeMs":1553310419569.2,"atime":"2019-03-23T03:06:59.569Z","mtime":"2019-03-24T13:45:54.310Z","ctime":"2019-03-24T13:45:54.310Z","birthtime":"2019-03-23T03:06:59.569Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-03-24 21:45:54,312 INFO 9468 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"E:\\clubts\\app\\web\\page\\home\\home.html","stat":{"dev":262705,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":1407374883645604,"size":639,"atimeMs":1553310419569.2,"mtimeMs":1553435154307.5,"ctimeMs":1553435154307.5,"birthtimeMs":1553310419569.2,"atime":"2019-03-23T03:06:59.569Z","mtime":"2019-03-24T13:45:54.308Z","ctime":"2019-03-24T13:45:54.308Z","birthtime":"2019-03-23T03:06:59.569Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-03-24 21:45:54,512 WARN 9468 [agent:development] reload worker because E:\clubts\app\web\page\home\home.html change
+2019-03-24 21:45:56,727 WARN 9468 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-03-24 21:46:48,915 WARN 9468 [agent:development] reload worker because E:\clubts\app\web\page\home\home.html change
+2019-03-24 21:46:48,701 INFO 9468 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"E:\\clubts\\app\\web\\page\\home\\home.html","stat":{"dev":262705,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":1407374883645604,"size":639,"atimeMs":1553310419569.2,"mtimeMs":1553435208695.5,"ctimeMs":1553435208695.5,"birthtimeMs":1553310419569.2,"atime":"2019-03-23T03:06:59.569Z","mtime":"2019-03-24T13:46:48.696Z","ctime":"2019-03-24T13:46:48.696Z","birthtime":"2019-03-23T03:06:59.569Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-03-24 21:46:48,705 INFO 9468 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"E:\\clubts\\app\\web\\page\\home\\home.html","stat":{"dev":262705,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":1407374883645604,"size":639,"atimeMs":1553310419569.2,"mtimeMs":1553435208700.5,"ctimeMs":1553435208700.5,"birthtimeMs":1553310419569.2,"atime":"2019-03-23T03:06:59.569Z","mtime":"2019-03-24T13:46:48.701Z","ctime":"2019-03-24T13:46:48.701Z","birthtime":"2019-03-23T03:06:59.569Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-03-24 21:46:48,706 INFO 9468 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"E:\\clubts\\app\\web\\page\\home\\home.html","stat":{"dev":262705,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":1407374883645604,"size":639,"atimeMs":1553310419569.2,"mtimeMs":1553435208700.5,"ctimeMs":1553435208700.5,"birthtimeMs":1553310419569.2,"atime":"2019-03-23T03:06:59.569Z","mtime":"2019-03-24T13:46:48.701Z","ctime":"2019-03-24T13:46:48.701Z","birthtime":"2019-03-23T03:06:59.569Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-03-24 21:46:51,325 WARN 9468 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-03-24 21:56:43,318 INFO 5644 [egg:logger] init all loggers with options: {"dir":"E:\\clubts\\logs\\clubts","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"clubts-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-03-24 21:56:43,957 INFO 5644 [egg:core] dump config after load, 7ms
+2019-03-24 21:56:44,018 INFO 5644 [egg-watcher] Start watching: ["E:\\clubts\\app","E:\\clubts\\config","E:\\clubts\\mocks","E:\\clubts\\mocks_proxy","E:\\clubts\\app.js"]
+2019-03-24 21:56:44,018 INFO 5644 [egg-watcher] Start watching: "E:\\clubts\\app"
+2019-03-24 21:56:44,018 INFO 5644 [egg-watcher] Start watching: "E:\\clubts\\config"
+2019-03-24 21:56:44,018 INFO 5644 [egg-watcher] Start watching: "E:\\clubts\\mocks"
+2019-03-24 21:56:44,018 INFO 5644 [egg-watcher] Start watching: "E:\\clubts\\mocks_proxy"
+2019-03-24 21:56:44,018 INFO 5644 [egg-watcher] Start watching: "E:\\clubts\\app.js"
+2019-03-24 21:56:44,019 INFO 5644 [egg-watcher:agent] watcher start success
+2019-03-24 21:56:44,053 INFO 5644 [egg:core] dump config after ready, 4ms

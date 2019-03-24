@@ -1,0 +1,16 @@
+2019-03-23 11:57:33,739 INFO 1304 [Timer] E:\clubts\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 43346261ms at 2019-03-24 00:00:00.000
+2019-03-23 11:57:33,739 INFO 1304 [Timer] E:\clubts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 43347261ms at 2019-03-24 00:00:01.000
+2019-03-23 11:57:33,597 INFO 4524 [egg-schedule]: register schedule E:\clubts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-03-23 11:57:33,597 INFO 4524 [egg-schedule]: register schedule E:\clubts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-03-24 21:44:40,122 INFO 9468 [Timer] E:\clubts\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 8119880ms at 2019-03-25 00:00:00.002
+2019-03-24 21:44:40,122 INFO 9468 [Timer] E:\clubts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 8120878ms at 2019-03-25 00:00:01.000
+2019-03-24 21:44:39,975 INFO 6612 [egg-schedule]: register schedule E:\clubts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-03-24 21:44:39,975 INFO 6612 [egg-schedule]: register schedule E:\clubts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-03-24 21:45:56,477 INFO 7392 [egg-schedule]: register schedule E:\clubts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-03-24 21:45:56,477 INFO 7392 [egg-schedule]: register schedule E:\clubts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-03-24 21:46:51,050 INFO 6996 [egg-schedule]: register schedule E:\clubts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-03-24 21:46:51,050 INFO 6996 [egg-schedule]: register schedule E:\clubts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-03-24 21:56:46,021 INFO 5644 [Timer] E:\clubts\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 7393981ms at 2019-03-25 00:00:00.002
+2019-03-24 21:56:46,021 INFO 5644 [Timer] E:\clubts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 7394979ms at 2019-03-25 00:00:01.000
+2019-03-24 21:56:45,862 INFO 9608 [egg-schedule]: register schedule E:\clubts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-03-24 21:56:45,862 INFO 9608 [egg-schedule]: register schedule E:\clubts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
