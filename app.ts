@@ -17,6 +17,7 @@ export default class FooBoot implements IBoot {
   }
 
   configDidLoad() {
+    this.app.config.aa
     this.app.locals = { staticDomain: 'aaa' };
     // Config, plugin files have loaded.
   }

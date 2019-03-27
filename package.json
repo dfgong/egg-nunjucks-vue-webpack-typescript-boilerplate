@@ -49,6 +49,8 @@
     "egg-mock": "^3.16.0",
     "egg-ts-helper": "^1.23.0",
     "egg-webpack": "^4.4.9",
+    "ejs-loader": "^0.3.1",
+    "html-withimg-loader": "^0.1.16",
     "imagemin-webpack-plugin": "^2.4.0",
     "node-sass": "^4.11.0",
     "sass-loader": "^7.1.0",

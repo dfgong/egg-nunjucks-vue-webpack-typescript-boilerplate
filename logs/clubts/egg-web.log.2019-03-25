@@ -1,0 +1,374 @@
+2019-03-23 11:57:33,567 INFO 4524 [egg:logger] init all loggers with options: {"dir":"E:\\clubts\\logs\\clubts","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"clubts-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-23 11:57:33,597 INFO 4524 [egg-multipart] stream mode enable
+2019-03-23 11:57:33,669 INFO 4524 [egg-static] starting static serve /public/ -> E:\clubts\public
+2019-03-23 11:57:33,669 INFO 4524 [egg-security] use csrf middleware
+2019-03-23 11:57:33,669 INFO 4524 [egg-security] use methodnoallow middleware
+2019-03-23 11:57:33,679 INFO 4524 [egg-security] use noopen middleware
+2019-03-23 11:57:33,679 INFO 4524 [egg-security] use nosniff middleware
+2019-03-23 11:57:33,679 INFO 4524 [egg-security] use xssProtection middleware
+2019-03-23 11:57:33,679 INFO 4524 [egg-security] use xframe middleware
+2019-03-23 11:57:33,679 INFO 4524 [egg-security] use dta middleware
+2019-03-23 11:57:33,679 INFO 4524 [egg-security] compose 7 middlewares into one security middleware
+2019-03-23 11:57:33,709 INFO 4524 [egg:core] dump config after load, 0ms
+2019-03-23 11:57:33,719 INFO 4524 [egg-watcher:application] watcher start success
+2019-03-23 11:57:33,729 INFO 4524 [egg:core] dump config after ready, 10ms
+2019-03-23 11:57:42,863 INFO 4524 [egg-view-nunjucks] loading templates from ["E:\\clubts\\app\\view"]
+2019-03-24 21:44:39,941 INFO 6612 [egg:logger] init all loggers with options: {"dir":"E:\\clubts\\logs\\clubts","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"clubts-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-24 21:44:39,976 INFO 6612 [egg-multipart] stream mode enable
+2019-03-24 21:44:40,050 INFO 6612 [egg-static] starting static serve /public/ -> E:\clubts\public
+2019-03-24 21:44:40,053 INFO 6612 [egg-security] use csrf middleware
+2019-03-24 21:44:40,054 INFO 6612 [egg-security] use methodnoallow middleware
+2019-03-24 21:44:40,054 INFO 6612 [egg-security] use noopen middleware
+2019-03-24 21:44:40,055 INFO 6612 [egg-security] use nosniff middleware
+2019-03-24 21:44:40,055 INFO 6612 [egg-security] use xssProtection middleware
+2019-03-24 21:44:40,056 INFO 6612 [egg-security] use xframe middleware
+2019-03-24 21:44:40,056 INFO 6612 [egg-security] use dta middleware
+2019-03-24 21:44:40,056 INFO 6612 [egg-security] compose 7 middlewares into one security middleware
+2019-03-24 21:44:40,066 INFO 6612 [egg:core] dump config after load, 6ms
+2019-03-24 21:44:40,109 INFO 6612 [egg-watcher:application] watcher start success
+2019-03-24 21:44:40,116 INFO 6612 [egg:core] dump config after ready, 5ms
+2019-03-24 21:44:48,214 INFO 6612 [egg-view-nunjucks] loading templates from ["E:\\clubts\\app\\view"]
+2019-03-24 21:45:56,443 INFO 7392 [egg:logger] init all loggers with options: {"dir":"E:\\clubts\\logs\\clubts","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"clubts-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-24 21:45:56,477 INFO 7392 [egg-multipart] stream mode enable
+2019-03-24 21:45:56,541 INFO 7392 [egg-static] starting static serve /public/ -> E:\clubts\public
+2019-03-24 21:45:56,544 INFO 7392 [egg-security] use csrf middleware
+2019-03-24 21:45:56,549 INFO 7392 [egg-security] use methodnoallow middleware
+2019-03-24 21:45:56,549 INFO 7392 [egg-security] use noopen middleware
+2019-03-24 21:45:56,550 INFO 7392 [egg-security] use nosniff middleware
+2019-03-24 21:45:56,550 INFO 7392 [egg-security] use xssProtection middleware
+2019-03-24 21:45:56,551 INFO 7392 [egg-security] use xframe middleware
+2019-03-24 21:45:56,551 INFO 7392 [egg-security] use dta middleware
+2019-03-24 21:45:56,551 INFO 7392 [egg-security] compose 7 middlewares into one security middleware
+2019-03-24 21:45:56,560 INFO 7392 [egg:core] dump config after load, 5ms
+2019-03-24 21:45:56,600 INFO 7392 [egg-watcher:application] watcher start success
+2019-03-24 21:45:56,611 INFO 7392 [egg:core] dump config after ready, 9ms
+2019-03-24 21:46:44,146 INFO 7392 [egg-view-nunjucks] loading templates from ["E:\\clubts\\app\\view"]
+2019-03-24 21:46:51,016 INFO 6996 [egg:logger] init all loggers with options: {"dir":"E:\\clubts\\logs\\clubts","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"clubts-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-24 21:46:51,050 INFO 6996 [egg-multipart] stream mode enable
+2019-03-24 21:46:51,119 INFO 6996 [egg-static] starting static serve /public/ -> E:\clubts\public
+2019-03-24 21:46:51,121 INFO 6996 [egg-security] use csrf middleware
+2019-03-24 21:46:51,126 INFO 6996 [egg-security] use methodnoallow middleware
+2019-03-24 21:46:51,127 INFO 6996 [egg-security] use noopen middleware
+2019-03-24 21:46:51,129 INFO 6996 [egg-security] use nosniff middleware
+2019-03-24 21:46:51,130 INFO 6996 [egg-security] use xssProtection middleware
+2019-03-24 21:46:51,131 INFO 6996 [egg-security] use xframe middleware
+2019-03-24 21:46:51,132 INFO 6996 [egg-security] use dta middleware
+2019-03-24 21:46:51,132 INFO 6996 [egg-security] compose 7 middlewares into one security middleware
+2019-03-24 21:46:51,146 INFO 6996 [egg:core] dump config after load, 8ms
+2019-03-24 21:46:51,198 INFO 6996 [egg-watcher:application] watcher start success
+2019-03-24 21:46:51,205 INFO 6996 [egg:core] dump config after ready, 5ms
+2019-03-24 21:46:57,700 INFO 6996 [egg-view-nunjucks] loading templates from ["E:\\clubts\\app\\view"]
+2019-03-24 21:56:45,825 INFO 9608 [egg:logger] init all loggers with options: {"dir":"E:\\clubts\\logs\\clubts","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"clubts-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-24 21:56:45,863 INFO 9608 [egg-multipart] stream mode enable
+2019-03-24 21:56:45,932 INFO 9608 [egg-static] starting static serve /public/ -> E:\clubts\public
+2019-03-24 21:56:45,937 INFO 9608 [egg-security] use csrf middleware
+2019-03-24 21:56:45,938 INFO 9608 [egg-security] use methodnoallow middleware
+2019-03-24 21:56:45,938 INFO 9608 [egg-security] use noopen middleware
+2019-03-24 21:56:45,939 INFO 9608 [egg-security] use nosniff middleware
+2019-03-24 21:56:45,939 INFO 9608 [egg-security] use xssProtection middleware
+2019-03-24 21:56:45,940 INFO 9608 [egg-security] use xframe middleware
+2019-03-24 21:56:45,940 INFO 9608 [egg-security] use dta middleware
+2019-03-24 21:56:45,940 INFO 9608 [egg-security] compose 7 middlewares into one security middleware
+2019-03-24 21:56:45,954 INFO 9608 [egg:core] dump config after load, 10ms
+2019-03-24 21:56:46,003 INFO 9608 [egg-watcher:application] watcher start success
+2019-03-24 21:56:46,013 INFO 9608 [egg:core] dump config after ready, 7ms
+2019-03-24 21:56:52,902 INFO 9608 [egg-view-nunjucks] loading templates from ["E:\\clubts\\app\\view"]
+2019-03-25 09:45:47,840 INFO 1920 [egg:logger] init all loggers with options: {"dir":"D:\\20190123\\clubts\\logs\\clubts","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"clubts-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-25 09:45:47,978 INFO 1920 [egg-multipart] stream mode enable
+2019-03-25 09:45:47,986 INFO 1920 [egg-view-nunjucks] loading templates from ["D:\\20190123\\clubts\\app\\view"]
+2019-03-25 09:45:48,390 INFO 1920 [egg-static] starting static serve /public/ -> D:\20190123\clubts\public
+2019-03-25 09:45:48,398 INFO 1920 [egg-security] use csrf middleware
+2019-03-25 09:45:48,406 INFO 1920 [egg-security] use methodnoallow middleware
+2019-03-25 09:45:48,406 INFO 1920 [egg-security] use noopen middleware
+2019-03-25 09:45:48,414 INFO 1920 [egg-security] use nosniff middleware
+2019-03-25 09:45:48,414 INFO 1920 [egg-security] use xssProtection middleware
+2019-03-25 09:45:48,414 INFO 1920 [egg-security] use xframe middleware
+2019-03-25 09:45:48,414 INFO 1920 [egg-security] use dta middleware
+2019-03-25 09:45:48,414 INFO 1920 [egg-security] compose 7 middlewares into one security middleware
+2019-03-25 09:45:48,453 INFO 1920 [egg:core] dump config after load, 16ms
+2019-03-25 09:45:48,508 INFO 1920 [egg-watcher:application] watcher start success
+2019-03-25 09:45:48,547 INFO 1920 [egg:core] dump config after ready, 24ms
+2019-03-25 09:47:08,503 INFO 7132 [egg:logger] init all loggers with options: {"dir":"D:\\20190123\\clubts\\logs\\clubts","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"clubts-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-25 09:47:08,660 INFO 7132 [egg-multipart] stream mode enable
+2019-03-25 09:47:08,664 INFO 7132 [egg-view-nunjucks] loading templates from ["D:\\20190123\\clubts\\app\\view"]
+2019-03-25 09:47:09,095 INFO 7132 [egg-static] starting static serve /public/ -> D:\20190123\clubts\public
+2019-03-25 09:47:09,107 INFO 7132 [egg-security] use csrf middleware
+2019-03-25 09:47:09,113 INFO 7132 [egg-security] use methodnoallow middleware
+2019-03-25 09:47:09,115 INFO 7132 [egg-security] use noopen middleware
+2019-03-25 09:47:09,119 INFO 7132 [egg-security] use nosniff middleware
+2019-03-25 09:47:09,121 INFO 7132 [egg-security] use xssProtection middleware
+2019-03-25 09:47:09,122 INFO 7132 [egg-security] use xframe middleware
+2019-03-25 09:47:09,124 INFO 7132 [egg-security] use dta middleware
+2019-03-25 09:47:09,124 INFO 7132 [egg-security] compose 7 middlewares into one security middleware
+2019-03-25 09:47:09,164 INFO 7132 [egg:core] dump config after load, 26ms
+2019-03-25 09:47:09,203 INFO 7132 [egg-watcher:application] watcher start success
+2019-03-25 09:47:09,220 INFO 7132 [egg:core] dump config after ready, 9ms
+2019-03-25 11:15:19,446 INFO 6904 [egg:logger] init all loggers with options: {"dir":"D:\\20190123\\clubts\\logs\\clubts","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"clubts-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-25 11:15:19,580 INFO 6904 [egg-multipart] stream mode enable
+2019-03-25 11:15:19,581 INFO 6904 [egg-view-nunjucks] loading templates from ["D:\\20190123\\clubts\\app\\view"]
+2019-03-25 11:15:20,084 INFO 6904 [egg-static] starting static serve /public/ -> D:\20190123\clubts\public
+2019-03-25 11:15:20,099 INFO 6904 [egg-security] use csrf middleware
+2019-03-25 11:15:20,104 INFO 6904 [egg-security] use methodnoallow middleware
+2019-03-25 11:15:20,106 INFO 6904 [egg-security] use noopen middleware
+2019-03-25 11:15:20,112 INFO 6904 [egg-security] use nosniff middleware
+2019-03-25 11:15:20,113 INFO 6904 [egg-security] use xssProtection middleware
+2019-03-25 11:15:20,114 INFO 6904 [egg-security] use xframe middleware
+2019-03-25 11:15:20,114 INFO 6904 [egg-security] use dta middleware
+2019-03-25 11:15:20,114 INFO 6904 [egg-security] compose 7 middlewares into one security middleware
+2019-03-25 11:15:20,155 INFO 6904 [egg:core] dump config after load, 19ms
+2019-03-25 11:15:20,199 INFO 6904 [egg-watcher:application] watcher start success
+2019-03-25 11:15:20,212 INFO 6904 [egg:core] dump config after ready, 9ms
+2019-03-25 11:57:38,629 INFO 7600 [egg:logger] init all loggers with options: {"dir":"D:\\20190123\\clubts\\logs\\clubts","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"clubts-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-25 11:57:38,738 INFO 7600 [egg-multipart] stream mode enable
+2019-03-25 11:57:38,745 INFO 7600 [egg-view-nunjucks] loading templates from ["D:\\20190123\\clubts\\app\\view"]
+2019-03-25 11:57:39,223 INFO 7600 [egg-static] starting static serve /public/ -> D:\20190123\clubts\public
+2019-03-25 11:57:39,241 INFO 7600 [egg-security] use csrf middleware
+2019-03-25 11:57:39,251 INFO 7600 [egg-security] use methodnoallow middleware
+2019-03-25 11:57:39,252 INFO 7600 [egg-security] use noopen middleware
+2019-03-25 11:57:39,258 INFO 7600 [egg-security] use nosniff middleware
+2019-03-25 11:57:39,261 INFO 7600 [egg-security] use xssProtection middleware
+2019-03-25 11:57:39,261 INFO 7600 [egg-security] use xframe middleware
+2019-03-25 11:57:39,266 INFO 7600 [egg-security] use dta middleware
+2019-03-25 11:57:39,266 INFO 7600 [egg-security] compose 7 middlewares into one security middleware
+2019-03-25 11:57:39,336 INFO 7600 [egg:core] dump config after load, 28ms
+2019-03-25 11:57:39,373 INFO 7600 [egg-watcher:application] watcher start success
+2019-03-25 11:57:39,395 INFO 7600 [egg:core] dump config after ready, 13ms
+2019-03-25 11:58:30,201 INFO 3700 [egg:logger] init all loggers with options: {"dir":"D:\\20190123\\clubts\\logs\\clubts","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"clubts-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-25 11:58:30,330 INFO 3700 [egg-multipart] stream mode enable
+2019-03-25 11:58:30,334 INFO 3700 [egg-view-nunjucks] loading templates from ["D:\\20190123\\clubts\\app\\view"]
+2019-03-25 11:58:30,664 INFO 3700 [egg-static] starting static serve /public/ -> D:\20190123\clubts\public
+2019-03-25 11:58:30,684 INFO 3700 [egg-security] use csrf middleware
+2019-03-25 11:58:30,689 INFO 3700 [egg-security] use methodnoallow middleware
+2019-03-25 11:58:30,691 INFO 3700 [egg-security] use noopen middleware
+2019-03-25 11:58:30,696 INFO 3700 [egg-security] use nosniff middleware
+2019-03-25 11:58:30,697 INFO 3700 [egg-security] use xssProtection middleware
+2019-03-25 11:58:30,698 INFO 3700 [egg-security] use xframe middleware
+2019-03-25 11:58:30,700 INFO 3700 [egg-security] use dta middleware
+2019-03-25 11:58:30,700 INFO 3700 [egg-security] compose 7 middlewares into one security middleware
+2019-03-25 11:58:30,725 INFO 3700 [egg:core] dump config after load, 13ms
+2019-03-25 11:58:30,779 INFO 3700 [egg-watcher:application] watcher start success
+2019-03-25 11:58:30,797 INFO 3700 [egg:core] dump config after ready, 12ms
+2019-03-25 13:42:10,231 INFO 4752 [egg:logger] init all loggers with options: {"dir":"D:\\20190123\\clubts\\logs\\clubts","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"clubts-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-25 13:42:10,424 INFO 4752 [egg-multipart] stream mode enable
+2019-03-25 13:42:10,429 INFO 4752 [egg-view-nunjucks] loading templates from ["D:\\20190123\\clubts\\app\\view"]
+2019-03-25 13:42:10,924 INFO 4752 [egg-static] starting static serve /public/ -> D:\20190123\clubts\public
+2019-03-25 13:42:10,948 INFO 4752 [egg-security] use csrf middleware
+2019-03-25 13:42:10,949 INFO 4752 [egg-security] use methodnoallow middleware
+2019-03-25 13:42:10,949 INFO 4752 [egg-security] use noopen middleware
+2019-03-25 13:42:10,949 INFO 4752 [egg-security] use nosniff middleware
+2019-03-25 13:42:10,949 INFO 4752 [egg-security] use xssProtection middleware
+2019-03-25 13:42:10,949 INFO 4752 [egg-security] use xframe middleware
+2019-03-25 13:42:10,952 INFO 4752 [egg-security] use dta middleware
+2019-03-25 13:42:10,952 INFO 4752 [egg-security] compose 7 middlewares into one security middleware
+2019-03-25 13:42:11,004 INFO 4752 [egg:core] dump config after load, 15ms
+2019-03-25 13:42:11,050 INFO 4752 [egg-watcher:application] watcher start success
+2019-03-25 13:42:11,063 INFO 4752 [egg:core] dump config after ready, 9ms
+2019-03-25 13:46:02,470 INFO 8256 [egg:logger] init all loggers with options: {"dir":"D:\\20190123\\clubts\\logs\\clubts","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"clubts-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-25 13:46:02,651 INFO 8256 [egg-multipart] stream mode enable
+2019-03-25 13:46:02,657 INFO 8256 [egg-view-nunjucks] loading templates from ["D:\\20190123\\clubts\\app\\view"]
+2019-03-25 13:46:03,214 INFO 8256 [egg-static] starting static serve /public/ -> D:\20190123\clubts\public
+2019-03-25 13:46:03,227 INFO 8256 [egg-security] use csrf middleware
+2019-03-25 13:46:03,234 INFO 8256 [egg-security] use methodnoallow middleware
+2019-03-25 13:46:03,236 INFO 8256 [egg-security] use noopen middleware
+2019-03-25 13:46:03,243 INFO 8256 [egg-security] use nosniff middleware
+2019-03-25 13:46:03,246 INFO 8256 [egg-security] use xssProtection middleware
+2019-03-25 13:46:03,248 INFO 8256 [egg-security] use xframe middleware
+2019-03-25 13:46:03,250 INFO 8256 [egg-security] use dta middleware
+2019-03-25 13:46:03,250 INFO 8256 [egg-security] compose 7 middlewares into one security middleware
+2019-03-25 13:46:03,303 INFO 8256 [egg:core] dump config after load, 36ms
+2019-03-25 13:46:03,370 INFO 8256 [egg-watcher:application] watcher start success
+2019-03-25 13:46:03,386 INFO 8256 [egg:core] dump config after ready, 11ms
+2019-03-25 13:49:54,679 INFO 8412 [egg:logger] init all loggers with options: {"dir":"D:\\20190123\\clubts\\logs\\clubts","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"clubts-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-25 13:49:54,802 INFO 8412 [egg-multipart] stream mode enable
+2019-03-25 13:49:54,806 INFO 8412 [egg-view-nunjucks] loading templates from []
+2019-03-25 13:49:55,159 INFO 8412 [egg-static] starting static serve /public/ -> D:\20190123\clubts\public
+2019-03-25 13:49:55,178 INFO 8412 [egg-security] use csrf middleware
+2019-03-25 13:49:55,186 INFO 8412 [egg-security] use methodnoallow middleware
+2019-03-25 13:49:55,188 INFO 8412 [egg-security] use noopen middleware
+2019-03-25 13:49:55,194 INFO 8412 [egg-security] use nosniff middleware
+2019-03-25 13:49:55,195 INFO 8412 [egg-security] use xssProtection middleware
+2019-03-25 13:49:55,197 INFO 8412 [egg-security] use xframe middleware
+2019-03-25 13:49:55,198 INFO 8412 [egg-security] use dta middleware
+2019-03-25 13:49:55,198 INFO 8412 [egg-security] compose 7 middlewares into one security middleware
+2019-03-25 13:49:55,232 INFO 8412 [egg:core] dump config after load, 20ms
+2019-03-25 13:49:55,283 INFO 8412 [egg-watcher:application] watcher start success
+2019-03-25 13:49:55,297 INFO 8412 [egg:core] dump config after ready, 10ms
+2019-03-25 13:50:23,579 ERROR 8412 nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received type undefined
+    at assertPath (path.js:39:11)
+    at Object.join (path.js:432:7)
+    at NunjucksEnvironment.app.nunjucks.render (D:\20190123\clubts\lib\plugin\egg-webpack-nunjucks\app.js:15:74)
+    at Promise (D:\20190123\clubts\node_modules\egg-view-nunjucks\lib\view.js:13:25)
+    at new Promise (<anonymous>)
+    at NunjucksView.render (D:\20190123\clubts\node_modules\egg-view-nunjucks\lib\view.js:12:12)
+    at ContextView.[contextView#render] (D:\20190123\clubts\node_modules\egg-view\lib\context_view.js:70:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 8412
+hostname: LC-0066
+
+2019-03-25 13:52:23,542 ERROR 8412 nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received type undefined
+    at assertPath (path.js:39:11)
+    at Object.join (path.js:432:7)
+    at NunjucksEnvironment.app.nunjucks.render (D:\20190123\clubts\lib\plugin\egg-webpack-nunjucks\app.js:15:74)
+    at Promise (D:\20190123\clubts\node_modules\egg-view-nunjucks\lib\view.js:13:25)
+    at new Promise (<anonymous>)
+    at NunjucksView.render (D:\20190123\clubts\node_modules\egg-view-nunjucks\lib\view.js:12:12)
+    at ContextView.[contextView#render] (D:\20190123\clubts\node_modules\egg-view\lib\context_view.js:70:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 8412
+hostname: LC-0066
+
+2019-03-25 13:53:01,230 INFO 1332 [egg:logger] init all loggers with options: {"dir":"D:\\20190123\\clubts\\logs\\clubts","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"clubts-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-25 13:53:01,383 INFO 1332 [egg-multipart] stream mode enable
+2019-03-25 13:53:01,390 INFO 1332 [egg-view-nunjucks] loading templates from ["D:\\20190123\\clubts\\app\\view"]
+2019-03-25 13:53:01,858 INFO 1332 [egg-static] starting static serve /public/ -> D:\20190123\clubts\public
+2019-03-25 13:53:01,875 INFO 1332 [egg-security] use csrf middleware
+2019-03-25 13:53:01,882 INFO 1332 [egg-security] use methodnoallow middleware
+2019-03-25 13:53:01,882 INFO 1332 [egg-security] use noopen middleware
+2019-03-25 13:53:01,890 INFO 1332 [egg-security] use nosniff middleware
+2019-03-25 13:53:01,892 INFO 1332 [egg-security] use xssProtection middleware
+2019-03-25 13:53:01,894 INFO 1332 [egg-security] use xframe middleware
+2019-03-25 13:53:01,896 INFO 1332 [egg-security] use dta middleware
+2019-03-25 13:53:01,896 INFO 1332 [egg-security] compose 7 middlewares into one security middleware
+2019-03-25 13:53:01,934 INFO 1332 [egg:core] dump config after load, 18ms
+2019-03-25 13:53:01,985 INFO 1332 [egg-watcher:application] watcher start success
+2019-03-25 13:53:02,012 INFO 1332 [egg:core] dump config after ready, 18ms
+2019-03-25 13:54:42,069 INFO 3004 [egg:logger] init all loggers with options: {"dir":"D:\\20190123\\clubts\\logs\\clubts","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"clubts-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-25 13:54:42,194 INFO 3004 [egg-multipart] stream mode enable
+2019-03-25 13:54:42,198 INFO 3004 [egg-view-nunjucks] loading templates from ["D:\\20190123\\clubts\\app\\view"]
+2019-03-25 13:54:42,562 INFO 3004 [egg-static] starting static serve /public/ -> D:\20190123\clubts\public
+2019-03-25 13:54:42,589 INFO 3004 [egg-security] use csrf middleware
+2019-03-25 13:54:42,593 INFO 3004 [egg-security] use methodnoallow middleware
+2019-03-25 13:54:42,596 INFO 3004 [egg-security] use noopen middleware
+2019-03-25 13:54:42,600 INFO 3004 [egg-security] use nosniff middleware
+2019-03-25 13:54:42,602 INFO 3004 [egg-security] use xssProtection middleware
+2019-03-25 13:54:42,604 INFO 3004 [egg-security] use xframe middleware
+2019-03-25 13:54:42,605 INFO 3004 [egg-security] use dta middleware
+2019-03-25 13:54:42,605 INFO 3004 [egg-security] compose 7 middlewares into one security middleware
+2019-03-25 13:54:42,652 INFO 3004 [egg:core] dump config after load, 35ms
+2019-03-25 13:54:42,676 INFO 3004 [egg-watcher:application] watcher start success
+2019-03-25 13:54:42,690 INFO 3004 [egg:core] dump config after ready, 9ms
+2019-03-25 13:58:53,779 INFO 6944 [egg:logger] init all loggers with options: {"dir":"D:\\20190123\\clubts\\logs\\clubts","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"clubts-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-25 13:58:53,904 INFO 6944 [egg-multipart] stream mode enable
+2019-03-25 13:58:53,907 INFO 6944 [egg-view-nunjucks] loading templates from ["D:\\20190123\\clubts\\app\\view"]
+2019-03-25 13:58:54,304 INFO 6944 [egg-static] starting static serve /public/ -> D:\20190123\clubts\public
+2019-03-25 13:58:54,319 INFO 6944 [egg-security] use csrf middleware
+2019-03-25 13:58:54,326 INFO 6944 [egg-security] use methodnoallow middleware
+2019-03-25 13:58:54,326 INFO 6944 [egg-security] use noopen middleware
+2019-03-25 13:58:54,333 INFO 6944 [egg-security] use nosniff middleware
+2019-03-25 13:58:54,336 INFO 6944 [egg-security] use xssProtection middleware
+2019-03-25 13:58:54,338 INFO 6944 [egg-security] use xframe middleware
+2019-03-25 13:58:54,340 INFO 6944 [egg-security] use dta middleware
+2019-03-25 13:58:54,340 INFO 6944 [egg-security] compose 7 middlewares into one security middleware
+2019-03-25 13:58:54,370 INFO 6944 [egg:core] dump config after load, 17ms
+2019-03-25 13:58:54,420 INFO 6944 [egg-watcher:application] watcher start success
+2019-03-25 13:58:54,435 INFO 6944 [egg:core] dump config after ready, 13ms
+2019-03-25 14:17:01,530 INFO 7120 [egg:logger] init all loggers with options: {"dir":"D:\\20190123\\clubts\\logs\\clubts","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"clubts-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-25 14:17:01,641 INFO 7120 [egg-multipart] stream mode enable
+2019-03-25 14:17:01,645 INFO 7120 [egg-view-nunjucks] loading templates from ["D:\\20190123\\clubts\\app\\view"]
+2019-03-25 14:17:02,016 INFO 7120 [egg-static] starting static serve /public/ -> D:\20190123\clubts\public
+2019-03-25 14:17:02,028 INFO 7120 [egg-security] use csrf middleware
+2019-03-25 14:17:02,052 INFO 7120 [egg-security] use methodnoallow middleware
+2019-03-25 14:17:02,054 INFO 7120 [egg-security] use noopen middleware
+2019-03-25 14:17:02,058 INFO 7120 [egg-security] use nosniff middleware
+2019-03-25 14:17:02,058 INFO 7120 [egg-security] use xssProtection middleware
+2019-03-25 14:17:02,063 INFO 7120 [egg-security] use xframe middleware
+2019-03-25 14:17:02,064 INFO 7120 [egg-security] use dta middleware
+2019-03-25 14:17:02,064 INFO 7120 [egg-security] compose 7 middlewares into one security middleware
+2019-03-25 14:17:02,119 INFO 7120 [egg:core] dump config after load, 36ms
+2019-03-25 14:17:02,148 INFO 7120 [egg-watcher:application] watcher start success
+2019-03-25 14:17:02,170 INFO 7120 [egg:core] dump config after ready, 17ms
+2019-03-25 14:28:31,800 INFO 7288 [egg:logger] init all loggers with options: {"dir":"D:\\20190123\\clubts\\logs\\clubts","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"clubts-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-25 14:28:31,946 INFO 7288 [egg-multipart] stream mode enable
+2019-03-25 14:28:31,949 INFO 7288 [egg-view-nunjucks] loading templates from ["D:\\20190123\\clubts\\app\\view"]
+2019-03-25 14:28:32,349 INFO 7288 [egg-static] starting static serve /public/ -> D:\20190123\clubts\public
+2019-03-25 14:28:32,360 INFO 7288 [egg-security] use csrf middleware
+2019-03-25 14:28:32,366 INFO 7288 [egg-security] use methodnoallow middleware
+2019-03-25 14:28:32,368 INFO 7288 [egg-security] use noopen middleware
+2019-03-25 14:28:32,373 INFO 7288 [egg-security] use nosniff middleware
+2019-03-25 14:28:32,375 INFO 7288 [egg-security] use xssProtection middleware
+2019-03-25 14:28:32,376 INFO 7288 [egg-security] use xframe middleware
+2019-03-25 14:28:32,377 INFO 7288 [egg-security] use dta middleware
+2019-03-25 14:28:32,377 INFO 7288 [egg-security] compose 7 middlewares into one security middleware
+2019-03-25 14:28:32,408 INFO 7288 [egg:core] dump config after load, 17ms
+2019-03-25 14:28:32,448 INFO 7288 [egg-watcher:application] watcher start success
+2019-03-25 14:28:32,460 INFO 7288 [egg:core] dump config after ready, 8ms
+2019-03-25 14:36:27,097 INFO 7812 [egg:logger] init all loggers with options: {"dir":"D:\\20190123\\clubts\\logs\\clubts","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"clubts-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-25 14:36:27,230 INFO 7812 [egg-multipart] stream mode enable
+2019-03-25 14:36:27,236 INFO 7812 [egg-view-nunjucks] loading templates from ["D:\\20190123\\clubts\\app\\view"]
+2019-03-25 14:36:27,726 INFO 7812 [egg-static] starting static serve /public/ -> D:\20190123\clubts\public
+2019-03-25 14:36:27,744 INFO 7812 [egg-security] use csrf middleware
+2019-03-25 14:36:27,747 INFO 7812 [egg-security] use methodnoallow middleware
+2019-03-25 14:36:27,753 INFO 7812 [egg-security] use noopen middleware
+2019-03-25 14:36:27,761 INFO 7812 [egg-security] use nosniff middleware
+2019-03-25 14:36:27,763 INFO 7812 [egg-security] use xssProtection middleware
+2019-03-25 14:36:27,765 INFO 7812 [egg-security] use xframe middleware
+2019-03-25 14:36:27,767 INFO 7812 [egg-security] use dta middleware
+2019-03-25 14:36:27,767 INFO 7812 [egg-security] compose 7 middlewares into one security middleware
+2019-03-25 14:36:27,801 INFO 7812 [egg:core] dump config after load, 15ms
+2019-03-25 14:36:27,827 INFO 7812 [egg-watcher:application] watcher start success
+2019-03-25 14:36:27,840 INFO 7812 [egg:core] dump config after ready, 10ms
+2019-03-25 14:36:37,079 INFO 9212 [egg:logger] init all loggers with options: {"dir":"D:\\20190123\\clubts\\logs\\clubts","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"clubts-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-25 14:36:37,298 INFO 9212 [egg-multipart] stream mode enable
+2019-03-25 14:36:37,304 INFO 9212 [egg-view-nunjucks] loading templates from ["D:\\20190123\\clubts\\app\\view"]
+2019-03-25 14:36:37,716 INFO 9212 [egg-static] starting static serve /public/ -> D:\20190123\clubts\public
+2019-03-25 14:36:37,730 INFO 9212 [egg-security] use csrf middleware
+2019-03-25 14:36:37,740 INFO 9212 [egg-security] use methodnoallow middleware
+2019-03-25 14:36:37,742 INFO 9212 [egg-security] use noopen middleware
+2019-03-25 14:36:37,749 INFO 9212 [egg-security] use nosniff middleware
+2019-03-25 14:36:37,751 INFO 9212 [egg-security] use xssProtection middleware
+2019-03-25 14:36:37,753 INFO 9212 [egg-security] use xframe middleware
+2019-03-25 14:36:37,754 INFO 9212 [egg-security] use dta middleware
+2019-03-25 14:36:37,754 INFO 9212 [egg-security] compose 7 middlewares into one security middleware
+2019-03-25 14:36:37,789 INFO 9212 [egg:core] dump config after load, 11ms
+2019-03-25 14:36:37,813 INFO 9212 [egg-watcher:application] watcher start success
+2019-03-25 14:36:37,837 INFO 9212 [egg:core] dump config after ready, 21ms
+2019-03-25 14:37:05,599 INFO 204 [egg:logger] init all loggers with options: {"dir":"D:\\20190123\\clubts\\logs\\clubts","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"clubts-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-25 14:37:05,761 INFO 204 [egg-multipart] stream mode enable
+2019-03-25 14:37:05,769 INFO 204 [egg-view-nunjucks] loading templates from ["D:\\20190123\\clubts\\app\\view"]
+2019-03-25 14:37:06,149 INFO 204 [egg-static] starting static serve /public/ -> D:\20190123\clubts\public
+2019-03-25 14:37:06,160 INFO 204 [egg-security] use csrf middleware
+2019-03-25 14:37:06,166 INFO 204 [egg-security] use methodnoallow middleware
+2019-03-25 14:37:06,167 INFO 204 [egg-security] use noopen middleware
+2019-03-25 14:37:06,169 INFO 204 [egg-security] use nosniff middleware
+2019-03-25 14:37:06,169 INFO 204 [egg-security] use xssProtection middleware
+2019-03-25 14:37:06,169 INFO 204 [egg-security] use xframe middleware
+2019-03-25 14:37:06,169 INFO 204 [egg-security] use dta middleware
+2019-03-25 14:37:06,169 INFO 204 [egg-security] compose 7 middlewares into one security middleware
+2019-03-25 14:37:06,195 INFO 204 [egg:core] dump config after load, 9ms
+2019-03-25 14:37:06,231 INFO 204 [egg-watcher:application] watcher start success
+2019-03-25 14:37:06,255 INFO 204 [egg:core] dump config after ready, 18ms
+2019-03-25 14:37:24,700 INFO 8320 [egg:logger] init all loggers with options: {"dir":"D:\\20190123\\clubts\\logs\\clubts","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"clubts-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-25 14:37:24,892 INFO 8320 [egg-multipart] stream mode enable
+2019-03-25 14:37:24,896 INFO 8320 [egg-view-nunjucks] loading templates from ["D:\\20190123\\clubts\\app\\view"]
+2019-03-25 14:37:25,277 INFO 8320 [egg-static] starting static serve /public/ -> D:\20190123\clubts\public
+2019-03-25 14:37:25,283 INFO 8320 [egg-security] use csrf middleware
+2019-03-25 14:37:25,294 INFO 8320 [egg-security] use methodnoallow middleware
+2019-03-25 14:37:25,296 INFO 8320 [egg-security] use noopen middleware
+2019-03-25 14:37:25,302 INFO 8320 [egg-security] use nosniff middleware
+2019-03-25 14:37:25,304 INFO 8320 [egg-security] use xssProtection middleware
+2019-03-25 14:37:25,305 INFO 8320 [egg-security] use xframe middleware
+2019-03-25 14:37:25,307 INFO 8320 [egg-security] use dta middleware
+2019-03-25 14:37:25,307 INFO 8320 [egg-security] compose 7 middlewares into one security middleware
+2019-03-25 14:37:25,333 INFO 8320 [egg:core] dump config after load, 13ms
+2019-03-25 14:37:25,369 INFO 8320 [egg-watcher:application] watcher start success
+2019-03-25 14:37:25,387 INFO 8320 [egg:core] dump config after ready, 13ms
+2019-03-25 16:55:57,625 INFO 5744 [egg:logger] init all loggers with options: {"dir":"D:\\20190123\\clubts\\logs\\clubts","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"clubts-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-25 16:55:57,752 INFO 5744 [egg-multipart] stream mode enable
+2019-03-25 16:55:57,757 INFO 5744 [egg-view-nunjucks] loading templates from ["D:\\20190123\\clubts\\app\\view"]
+2019-03-25 16:55:58,237 INFO 5744 [egg-static] starting static serve /public/ -> D:\20190123\clubts\public
+2019-03-25 16:55:58,249 INFO 5744 [egg-security] use csrf middleware
+2019-03-25 16:55:58,255 INFO 5744 [egg-security] use methodnoallow middleware
+2019-03-25 16:55:58,256 INFO 5744 [egg-security] use noopen middleware
+2019-03-25 16:55:58,260 INFO 5744 [egg-security] use nosniff middleware
+2019-03-25 16:55:58,262 INFO 5744 [egg-security] use xssProtection middleware
+2019-03-25 16:55:58,264 INFO 5744 [egg-security] use xframe middleware
+2019-03-25 16:55:58,265 INFO 5744 [egg-security] use dta middleware
+2019-03-25 16:55:58,265 INFO 5744 [egg-security] compose 7 middlewares into one security middleware
+2019-03-25 16:55:58,294 INFO 5744 [egg:core] dump config after load, 14ms
+2019-03-25 16:55:58,328 INFO 5744 [egg-watcher:application] watcher start success
+2019-03-25 16:55:58,362 INFO 5744 [egg:core] dump config after ready, 28ms
+2019-03-25 23:59:58,856 INFO 5744 [egg-logrotator] clean all log before 31 days
+2019-03-25 23:59:59,854 INFO 5744 [egg-logrotator] broadcast log-reload
+2019-03-25 23:59:59,855 INFO 5744 [egg-logrotator] rotate files success by DayRotator, files ["D:\\20190123\\clubts\\logs\\clubts\\common-error.log -> D:\\20190123\\clubts\\logs\\clubts\\common-error.log.2019-03-25","D:\\20190123\\clubts\\logs\\clubts\\clubts-web.log -> D:\\20190123\\clubts\\logs\\clubts\\clubts-web.log.2019-03-25","D:\\20190123\\clubts\\logs\\clubts\\egg-web.log -> D:\\20190123\\clubts\\logs\\clubts\\egg-web.log.2019-03-25","D:\\20190123\\clubts\\logs\\clubts\\egg-schedule.log -> D:\\20190123\\clubts\\logs\\clubts\\egg-schedule.log.2019-03-25","D:\\20190123\\clubts\\logs\\clubts\\egg-agent.log -> D:\\20190123\\clubts\\logs\\clubts\\egg-agent.log.2019-03-25"]

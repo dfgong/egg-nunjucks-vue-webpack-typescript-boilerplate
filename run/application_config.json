@@ -86,28 +86,28 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "E:\\clubts\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
+      "templatePath": "D:\\20190123\\clubts\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
       "dirs": [
-        "E:\\clubts\\node_modules\\egg-session\\config\\locales",
-        "E:\\clubts\\node_modules\\egg-security\\config\\locales",
-        "E:\\clubts\\node_modules\\egg-jsonp\\config\\locales",
-        "E:\\clubts\\node_modules\\egg-onerror\\config\\locales",
-        "E:\\clubts\\node_modules\\egg-i18n\\config\\locales",
-        "E:\\clubts\\node_modules\\egg-watcher\\config\\locales",
-        "E:\\clubts\\node_modules\\egg-schedule\\config\\locales",
-        "E:\\clubts\\node_modules\\egg-multipart\\config\\locales",
-        "E:\\clubts\\node_modules\\egg-development\\config\\locales",
-        "E:\\clubts\\node_modules\\egg-logrotator\\config\\locales",
-        "E:\\clubts\\node_modules\\egg-static\\config\\locales",
-        "E:\\clubts\\node_modules\\egg-view\\config\\locales",
-        "E:\\clubts\\node_modules\\egg-view-nunjucks\\config\\locales",
-        "E:\\clubts\\node_modules\\egg-webpack\\config\\locales",
-        "E:\\clubts\\lib\\plugin\\egg-webpack-nunjucks\\config\\locales",
-        "E:\\clubts\\node_modules\\egg\\config\\locales",
-        "E:\\clubts\\config\\locales"
+        "D:\\20190123\\clubts\\node_modules\\egg-session\\config\\locales",
+        "D:\\20190123\\clubts\\node_modules\\egg-security\\config\\locales",
+        "D:\\20190123\\clubts\\node_modules\\egg-jsonp\\config\\locales",
+        "D:\\20190123\\clubts\\node_modules\\egg-onerror\\config\\locales",
+        "D:\\20190123\\clubts\\node_modules\\egg-i18n\\config\\locales",
+        "D:\\20190123\\clubts\\node_modules\\egg-watcher\\config\\locales",
+        "D:\\20190123\\clubts\\node_modules\\egg-schedule\\config\\locales",
+        "D:\\20190123\\clubts\\node_modules\\egg-multipart\\config\\locales",
+        "D:\\20190123\\clubts\\node_modules\\egg-development\\config\\locales",
+        "D:\\20190123\\clubts\\node_modules\\egg-logrotator\\config\\locales",
+        "D:\\20190123\\clubts\\node_modules\\egg-static\\config\\locales",
+        "D:\\20190123\\clubts\\node_modules\\egg-view\\config\\locales",
+        "D:\\20190123\\clubts\\node_modules\\egg-view-nunjucks\\config\\locales",
+        "D:\\20190123\\clubts\\node_modules\\egg-webpack\\config\\locales",
+        "D:\\20190123\\clubts\\lib\\plugin\\egg-webpack-nunjucks\\config\\locales",
+        "D:\\20190123\\clubts\\node_modules\\egg\\config\\locales",
+        "D:\\20190123\\clubts\\config\\locales"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -117,14 +117,14 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "E:\\clubts\\node_modules\\egg-watcher\\lib\\event-sources\\default",
-        "development": "E:\\clubts\\node_modules\\egg-watcher\\lib\\event-sources\\development"
+        "default": "D:\\20190123\\clubts\\node_modules\\egg-watcher\\lib\\event-sources\\default",
+        "development": "D:\\20190123\\clubts\\node_modules\\egg-watcher\\lib\\event-sources\\development"
       }
     },
     "customLogger": {
       "scheduleLogger": {
         "consoleLevel": "NONE",
-        "file": "E:\\clubts\\logs\\clubts\\egg-schedule.log"
+        "file": "D:\\20190123\\clubts\\logs\\clubts\\egg-schedule.log"
       }
     },
     "schedule": {
@@ -164,7 +164,7 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "E:\\clubts\\public",
+      "dir": "D:\\20190123\\clubts\\public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
@@ -172,13 +172,13 @@
     },
     "view": {
       "root": [
-        "E:\\clubts\\app\\view"
+        "D:\\20190123\\clubts\\app\\view"
       ],
       "cache": false,
-      "defaultExtension": ".html",
+      "defaultExtension": ".njk",
       "defaultViewEngine": "nunjucks",
       "mapping": {
-        ".html": "nunjucks"
+        ".njk": "nunjucks"
       }
     },
     "nunjucks": {
@@ -186,7 +186,8 @@
       "throwOnUndefined": false,
       "trimBlocks": false,
       "lstripBlocks": false,
-      "cache": false
+      "noCache": true,
+      "dev": false
     },
     "webpack": {
       "port": 9000,
@@ -255,6 +256,8 @@
         "egg-mock": "^3.16.0",
         "egg-ts-helper": "^1.23.0",
         "egg-webpack": "^4.4.9",
+        "ejs-loader": "^0.3.1",
+        "html-withimg-loader": "^0.1.16",
         "imagemin-webpack-plugin": "^2.4.0",
         "node-sass": "^4.11.0",
         "sass-loader": "^7.1.0",
@@ -281,9 +284,9 @@
       "author": "",
       "license": "MIT"
     },
-    "baseDir": "E:\\clubts",
+    "baseDir": "D:\\20190123\\clubts",
     "HOME": "C:\\Users\\Administrator",
-    "rundir": "E:\\clubts\\run",
+    "rundir": "D:\\20190123\\clubts\\run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -314,7 +317,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "E:\\clubts\\logs\\clubts",
+      "dir": "D:\\20190123\\clubts\\logs\\clubts",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -407,8 +410,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\clubts\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\clubts\\node_modules\\egg-session",
+      "from": "D:\\20190123\\clubts\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\20190123\\clubts\\node_modules\\egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -420,8 +423,8 @@
         "session"
       ],
       "env": [],
-      "from": "E:\\clubts\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\clubts\\node_modules\\egg-security",
+      "from": "D:\\20190123\\clubts\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\20190123\\clubts\\node_modules\\egg-security",
       "version": "2.4.3"
     },
     "jsonp": {
@@ -433,8 +436,8 @@
         "security"
       ],
       "env": [],
-      "from": "E:\\clubts\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\clubts\\node_modules\\egg-jsonp",
+      "from": "D:\\20190123\\clubts\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\20190123\\clubts\\node_modules\\egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -446,8 +449,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "E:\\clubts\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\clubts\\node_modules\\egg-onerror",
+      "from": "D:\\20190123\\clubts\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\20190123\\clubts\\node_modules\\egg-onerror",
       "version": "2.1.0"
     },
     "i18n": {
@@ -457,8 +460,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\clubts\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\clubts\\node_modules\\egg-i18n",
+      "from": "D:\\20190123\\clubts\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\20190123\\clubts\\node_modules\\egg-i18n",
       "version": "2.0.0"
     },
     "watcher": {
@@ -468,8 +471,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\clubts\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\clubts\\node_modules\\egg-watcher",
+      "from": "D:\\20190123\\clubts\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\20190123\\clubts\\node_modules\\egg-watcher",
       "version": "3.1.0"
     },
     "schedule": {
@@ -479,8 +482,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\clubts\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\clubts\\node_modules\\egg-schedule",
+      "from": "D:\\20190123\\clubts\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\20190123\\clubts\\node_modules\\egg-schedule",
       "version": "3.6.0"
     },
     "multipart": {
@@ -492,8 +495,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "E:\\clubts\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\clubts\\node_modules\\egg-multipart",
+      "from": "D:\\20190123\\clubts\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\20190123\\clubts\\node_modules\\egg-multipart",
       "version": "2.4.0"
     },
     "development": {
@@ -507,8 +510,8 @@
       "env": [
         "local"
       ],
-      "from": "E:\\clubts\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\clubts\\node_modules\\egg-development",
+      "from": "D:\\20190123\\clubts\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\20190123\\clubts\\node_modules\\egg-development",
       "version": "2.4.2"
     },
     "logrotator": {
@@ -520,8 +523,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\clubts\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\clubts\\node_modules\\egg-logrotator",
+      "from": "D:\\20190123\\clubts\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\20190123\\clubts\\node_modules\\egg-logrotator",
       "version": "3.0.5"
     },
     "static": {
@@ -531,8 +534,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\clubts\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\clubts\\node_modules\\egg-static",
+      "from": "D:\\20190123\\clubts\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\20190123\\clubts\\node_modules\\egg-static",
       "version": "2.2.0"
     },
     "view": {
@@ -542,8 +545,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\clubts\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\clubts\\node_modules\\egg-view",
+      "from": "D:\\20190123\\clubts\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\20190123\\clubts\\node_modules\\egg-view",
       "version": "2.1.2"
     },
     "nunjucks": {
@@ -556,8 +559,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\clubts\\config\\plugin.ts",
-      "path": "E:\\clubts\\node_modules\\egg-view-nunjucks",
+      "from": "D:\\20190123\\clubts\\config\\plugin.ts",
+      "path": "D:\\20190123\\clubts\\node_modules\\egg-view-nunjucks",
       "version": "2.2.0"
     },
     "webpack": {
@@ -569,18 +572,18 @@
       "env": [
         "local"
       ],
-      "from": "E:\\clubts\\config\\plugin.local.ts",
-      "path": "E:\\clubts\\node_modules\\egg-webpack",
+      "from": "D:\\20190123\\clubts\\config\\plugin.local.ts",
+      "path": "D:\\20190123\\clubts\\node_modules\\egg-webpack",
       "version": "4.4.9"
     },
     "webpacknunjucks": {
       "enable": true,
-      "path": "E:\\clubts\\lib\\plugin\\egg-webpack-nunjucks",
+      "path": "D:\\20190123\\clubts\\lib\\plugin\\egg-webpack-nunjucks",
       "name": "webpacknunjucks",
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\clubts\\config\\plugin.local.ts"
+      "from": "D:\\20190123\\clubts\\config\\plugin.local.ts"
     }
   }
 }

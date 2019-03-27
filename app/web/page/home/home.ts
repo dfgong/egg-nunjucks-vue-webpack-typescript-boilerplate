@@ -4,8 +4,9 @@ if ((module as any).hot) {
 }
 // import './home.html';
 import './home.scss';
+import { a } from "../../common/ts/base";
 
-const a = 2;
+const aa = 2;
 let b = 5;
 const c = () => {
     if(a) {
@@ -13,4 +14,3 @@ const c = () => {
     }
 }
 c()
-console.log(b+1);

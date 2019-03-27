@@ -17,10 +17,10 @@ export default (appInfo: EggAppInfo) => {
       path.join(appInfo.baseDir, 'app/view')
     ].join(','),
     mapping: {
-      '.html': 'nunjucks',
+      '.njk': 'nunjucks',
     },
     defaultViewEngine: 'nunjucks',
-    defaultExtension: '.html',
+    defaultExtension: '.njk',
   };
 
   config.static = {
@@ -30,7 +30,8 @@ export default (appInfo: EggAppInfo) => {
 
   // add your special config in here
   const bizConfig = {
-    // sourceUrl: `https://github.com/eggjs/examples/tree/master/${appInfo.name}`,
+    aa: 'aa',
+    sourceUrl: `https://github.com/eggjs/examples/tree/master/${appInfo.name}`,
   };
 
   // the return config will combines to EggAppConfig

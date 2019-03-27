@@ -6,7 +6,7 @@ const path = require('path');
 const entry = 'app/web/@(page|layout)/**/*.ts';
 const root = 'app/web/';
 
-const globEntry = () => {
+const globEntry = (entry) => {
   const result = entry.match(/!\((.*)\)/);
   if (result && result.length) {
     const matchIgnore = result[0];
@@ -23,8 +23,8 @@ const globEntry = () => {
   return glob.sync(entry, { root });
 };
 
-const getGlobEntry = () => {
-  const files = globEntry();
+const getGlobEntry = (entry) => {
+  const files = globEntry(entry);
   const entries = {};
   files.forEach(file => {
     const ext = path.extname(file);
@@ -41,21 +41,35 @@ const getGlobEntry = () => {
       'page/home/home': 'app/web/page/home/home.ts' 
     },
  */
-const entries = getGlobEntry();
+const entries = getGlobEntry(entry);
 
 let HtmlWebpackPlugins = [];
 // 入口文件生成html
 Object.keys(entries).forEach(entryName => {
-  const template = entries[entryName].replace('.ts', '.html');
+  const template = entries[entryName].replace('.ts', '.njk');
   const filename = '../' + template.replace('/web/', '/view/');
   const minify = false;
   const hash = false;
   const inject = entryName.startsWith('layout')? false: true;
   const chunks = [entryName, 'runtime'];
-  HtmlWebpackPlugins.push({
-    env: ['dev', 'prod'],
-    name: new HtmlWebpackPlugin({template, filename, minify, hash, inject, chunks})
-  });
+  HtmlWebpackPlugins.push(new HtmlWebpackPlugin({template:  'html-withimg-loader!'+template, filename, minify, hash, inject, chunks}));
+
+  // fragment
+  if(entryName.startsWith('page')) {
+    let pathArr = `app/web/${entryName}`.split('/');
+    pathArr.splice(3,1);
+    const fragmentGlobStr = pathArr.join('/') + '/fragment/**/*.njk';
+    const fragments = getGlobEntry(fragmentGlobStr);
+    Object.keys(fragments).forEach(fragmentName => {
+      const template = fragments[fragmentName];
+      const filename = '../' + template.replace('/web/', '/view/');
+      const minify = false;
+      const hash = false;
+      const inject = false;
+      // const chunks = [fragmentName, 'runtime'];
+      HtmlWebpackPlugins.push(new HtmlWebpackPlugin({template:  'html-withimg-loader!'+template, filename, minify, hash, inject, chunks}));
+    });
+  }
 });
 
 module.exports = {
@@ -66,7 +80,7 @@ module.exports = {
     module: {
         rules: [
           {
-            test: /\.html$/,
+            test: /\.njk$/,
             use: [
               { loader: 'html-loader' }
             ]
@@ -100,7 +114,10 @@ module.exports = {
         {
             env: 'prod',
             name: new CleanWebpackPlugin('app/view')
-        },
-        ...HtmlWebpackPlugins
-    ]
+        }
+    ],
+    cdn: 'https://a.com',
+    customize(webpackConfig) {
+      webpackConfig.plugins.push(...HtmlWebpackPlugins);
+    }
 }

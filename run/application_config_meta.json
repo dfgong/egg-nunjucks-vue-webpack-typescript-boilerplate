@@ -1,332 +1,334 @@
 {
-  "keys": "E:\\clubts\\config\\config.default.ts",
-  "middleware": "E:\\clubts\\config\\config.default.ts",
+  "keys": "D:\\20190123\\clubts\\config\\config.default.ts",
+  "middleware": "D:\\20190123\\clubts\\config\\config.default.ts",
   "view": {
-    "cache": "E:\\clubts\\node_modules\\egg-view\\config\\config.local.js",
-    "root": "E:\\clubts\\config\\config.default.ts",
+    "cache": "D:\\20190123\\clubts\\node_modules\\egg-view\\config\\config.local.js",
+    "root": "D:\\20190123\\clubts\\config\\config.default.ts",
     "mapping": {
-      ".html": "E:\\clubts\\config\\config.default.ts"
+      ".njk": "D:\\20190123\\clubts\\config\\config.default.ts"
     },
-    "defaultViewEngine": "E:\\clubts\\config\\config.default.ts",
-    "defaultExtension": "E:\\clubts\\config\\config.default.ts"
+    "defaultViewEngine": "D:\\20190123\\clubts\\config\\config.default.ts",
+    "defaultExtension": "D:\\20190123\\clubts\\config\\config.default.ts"
   },
   "static": {
-    "prefix": "E:\\clubts\\config\\config.default.ts",
-    "dir": "E:\\clubts\\config\\config.default.ts",
-    "dynamic": "E:\\clubts\\node_modules\\egg-static\\config\\config.default.js",
-    "preload": "E:\\clubts\\node_modules\\egg-static\\config\\config.default.js",
-    "buffer": "E:\\clubts\\node_modules\\egg-static\\config\\config.default.js",
-    "maxFiles": "E:\\clubts\\node_modules\\egg-static\\config\\config.default.js"
+    "prefix": "D:\\20190123\\clubts\\config\\config.default.ts",
+    "dir": "D:\\20190123\\clubts\\config\\config.default.ts",
+    "dynamic": "D:\\20190123\\clubts\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "D:\\20190123\\clubts\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "D:\\20190123\\clubts\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "D:\\20190123\\clubts\\node_modules\\egg-static\\config\\config.default.js"
   },
   "webpack": {
-    "hot": "E:\\clubts\\config\\config.local.ts",
-    "port": "E:\\clubts\\node_modules\\egg-webpack\\config\\config.default.js",
+    "hot": "D:\\20190123\\clubts\\config\\config.local.ts",
+    "port": "D:\\20190123\\clubts\\node_modules\\egg-webpack\\config\\config.default.js",
     "proxy": {
-      "host": "E:\\clubts\\node_modules\\egg-webpack\\config\\config.default.js",
-      "match": "E:\\clubts\\node_modules\\egg-webpack\\config\\config.default.js"
+      "host": "D:\\20190123\\clubts\\node_modules\\egg-webpack\\config\\config.default.js",
+      "match": "D:\\20190123\\clubts\\node_modules\\egg-webpack\\config\\config.default.js"
     },
-    "webpackConfigList": "E:\\clubts\\node_modules\\egg-webpack\\config\\config.default.js"
+    "webpackConfigList": "D:\\20190123\\clubts\\node_modules\\egg-webpack\\config\\config.default.js"
   },
   "session": {
-    "maxAge": "E:\\clubts\\node_modules\\egg-session\\config\\config.default.js",
-    "key": "E:\\clubts\\node_modules\\egg-session\\config\\config.default.js",
-    "httpOnly": "E:\\clubts\\node_modules\\egg-session\\config\\config.default.js",
-    "encrypt": "E:\\clubts\\node_modules\\egg-session\\config\\config.default.js"
+    "maxAge": "D:\\20190123\\clubts\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "D:\\20190123\\clubts\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "D:\\20190123\\clubts\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "D:\\20190123\\clubts\\node_modules\\egg-session\\config\\config.default.js"
   },
   "security": {
-    "domainWhiteList": "E:\\clubts\\node_modules\\egg-security\\config\\config.default.js",
-    "protocolWhiteList": "E:\\clubts\\node_modules\\egg-security\\config\\config.default.js",
-    "defaultMiddleware": "E:\\clubts\\node_modules\\egg-security\\config\\config.default.js",
+    "domainWhiteList": "D:\\20190123\\clubts\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "D:\\20190123\\clubts\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "D:\\20190123\\clubts\\node_modules\\egg-security\\config\\config.default.js",
     "csrf": {
-      "enable": "E:\\clubts\\node_modules\\egg-security\\config\\config.default.js",
-      "useSession": "E:\\clubts\\node_modules\\egg-security\\config\\config.default.js",
-      "ignoreJSON": "E:\\clubts\\node_modules\\egg-security\\config\\config.default.js",
-      "cookieName": "E:\\clubts\\node_modules\\egg-security\\config\\config.default.js",
-      "sessionName": "E:\\clubts\\node_modules\\egg-security\\config\\config.default.js",
-      "headerName": "E:\\clubts\\node_modules\\egg-security\\config\\config.default.js",
-      "bodyName": "E:\\clubts\\node_modules\\egg-security\\config\\config.default.js",
-      "queryName": "E:\\clubts\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\20190123\\clubts\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "D:\\20190123\\clubts\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "D:\\20190123\\clubts\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "D:\\20190123\\clubts\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "D:\\20190123\\clubts\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "D:\\20190123\\clubts\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "D:\\20190123\\clubts\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "D:\\20190123\\clubts\\node_modules\\egg-security\\config\\config.default.js"
     },
     "xframe": {
-      "enable": "E:\\clubts\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "E:\\clubts\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\20190123\\clubts\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\20190123\\clubts\\node_modules\\egg-security\\config\\config.default.js"
     },
     "hsts": {
-      "enable": "E:\\clubts\\node_modules\\egg-security\\config\\config.local.js",
-      "maxAge": "E:\\clubts\\node_modules\\egg-security\\config\\config.default.js",
-      "includeSubdomains": "E:\\clubts\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\20190123\\clubts\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "D:\\20190123\\clubts\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "D:\\20190123\\clubts\\node_modules\\egg-security\\config\\config.default.js"
     },
     "dta": {
-      "enable": "E:\\clubts\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\20190123\\clubts\\node_modules\\egg-security\\config\\config.default.js"
     },
     "methodnoallow": {
-      "enable": "E:\\clubts\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\20190123\\clubts\\node_modules\\egg-security\\config\\config.default.js"
     },
     "noopen": {
-      "enable": "E:\\clubts\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\20190123\\clubts\\node_modules\\egg-security\\config\\config.default.js"
     },
     "nosniff": {
-      "enable": "E:\\clubts\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\20190123\\clubts\\node_modules\\egg-security\\config\\config.default.js"
     },
     "referrerPolicy": {
-      "enable": "E:\\clubts\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "E:\\clubts\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\20190123\\clubts\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\20190123\\clubts\\node_modules\\egg-security\\config\\config.default.js"
     },
     "xssProtection": {
-      "enable": "E:\\clubts\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "E:\\clubts\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\20190123\\clubts\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\20190123\\clubts\\node_modules\\egg-security\\config\\config.default.js"
     },
     "csp": {
-      "enable": "E:\\clubts\\node_modules\\egg-security\\config\\config.default.js",
-      "policy": "E:\\clubts\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\20190123\\clubts\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "D:\\20190123\\clubts\\node_modules\\egg-security\\config\\config.default.js"
     },
     "ssrf": {
-      "ipBlackList": "E:\\clubts\\node_modules\\egg-security\\config\\config.default.js",
-      "checkAddress": "E:\\clubts\\node_modules\\egg-security\\config\\config.default.js"
+      "ipBlackList": "D:\\20190123\\clubts\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "D:\\20190123\\clubts\\node_modules\\egg-security\\config\\config.default.js"
     }
   },
   "helper": {
-    "shtml": "E:\\clubts\\node_modules\\egg-security\\config\\config.default.js"
+    "shtml": "D:\\20190123\\clubts\\node_modules\\egg-security\\config\\config.default.js"
   },
   "jsonp": {
-    "limit": "E:\\clubts\\node_modules\\egg-jsonp\\config\\config.default.js",
-    "callback": "E:\\clubts\\node_modules\\egg-jsonp\\config\\config.default.js",
-    "csrf": "E:\\clubts\\node_modules\\egg-jsonp\\config\\config.default.js"
+    "limit": "D:\\20190123\\clubts\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "D:\\20190123\\clubts\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "D:\\20190123\\clubts\\node_modules\\egg-jsonp\\config\\config.default.js"
   },
   "onerror": {
-    "errorPageUrl": "E:\\clubts\\node_modules\\egg-onerror\\config\\config.default.js",
-    "appErrorFilter": "E:\\clubts\\node_modules\\egg-onerror\\config\\config.default.js",
-    "templatePath": "E:\\clubts\\node_modules\\egg-onerror\\config\\config.default.js"
+    "errorPageUrl": "D:\\20190123\\clubts\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "D:\\20190123\\clubts\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "D:\\20190123\\clubts\\node_modules\\egg-onerror\\config\\config.default.js"
   },
   "i18n": {
-    "defaultLocale": "E:\\clubts\\node_modules\\egg-i18n\\config\\config.default.js",
-    "dirs": "E:\\clubts\\node_modules\\egg-i18n\\config\\config.default.js",
-    "queryField": "E:\\clubts\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieField": "E:\\clubts\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieMaxAge": "E:\\clubts\\node_modules\\egg-i18n\\config\\config.default.js"
+    "defaultLocale": "D:\\20190123\\clubts\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "D:\\20190123\\clubts\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "D:\\20190123\\clubts\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "D:\\20190123\\clubts\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "D:\\20190123\\clubts\\node_modules\\egg-i18n\\config\\config.default.js"
   },
   "watcher": {
-    "type": "E:\\clubts\\node_modules\\egg-watcher\\config\\config.local.js",
+    "type": "D:\\20190123\\clubts\\node_modules\\egg-watcher\\config\\config.local.js",
     "eventSources": {
-      "default": "E:\\clubts\\node_modules\\egg-watcher\\config\\config.default.js",
-      "development": "E:\\clubts\\node_modules\\egg-watcher\\config\\config.default.js"
+      "default": "D:\\20190123\\clubts\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "D:\\20190123\\clubts\\node_modules\\egg-watcher\\config\\config.default.js"
     }
   },
   "customLogger": {
     "scheduleLogger": {
-      "consoleLevel": "E:\\clubts\\node_modules\\egg-schedule\\config\\config.default.js",
-      "file": "E:\\clubts\\node_modules\\egg-schedule\\config\\config.default.js"
+      "consoleLevel": "D:\\20190123\\clubts\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "D:\\20190123\\clubts\\node_modules\\egg-schedule\\config\\config.default.js"
     }
   },
   "schedule": {
-    "directory": "E:\\clubts\\node_modules\\egg-schedule\\config\\config.default.js"
+    "directory": "D:\\20190123\\clubts\\node_modules\\egg-schedule\\config\\config.default.js"
   },
   "multipart": {
-    "mode": "E:\\clubts\\node_modules\\egg-multipart\\config\\config.default.js",
-    "autoFields": "E:\\clubts\\node_modules\\egg-multipart\\config\\config.default.js",
-    "defaultCharset": "E:\\clubts\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fieldNameSize": "E:\\clubts\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fieldSize": "E:\\clubts\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fields": "E:\\clubts\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fileSize": "E:\\clubts\\node_modules\\egg-multipart\\config\\config.default.js",
-    "files": "E:\\clubts\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fileExtensions": "E:\\clubts\\node_modules\\egg-multipart\\config\\config.default.js",
-    "whitelist": "E:\\clubts\\node_modules\\egg-multipart\\config\\config.default.js",
-    "tmpdir": "E:\\clubts\\node_modules\\egg-multipart\\config\\config.default.js",
+    "mode": "D:\\20190123\\clubts\\node_modules\\egg-multipart\\config\\config.default.js",
+    "autoFields": "D:\\20190123\\clubts\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "D:\\20190123\\clubts\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "D:\\20190123\\clubts\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "D:\\20190123\\clubts\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "D:\\20190123\\clubts\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "D:\\20190123\\clubts\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "D:\\20190123\\clubts\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "D:\\20190123\\clubts\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "D:\\20190123\\clubts\\node_modules\\egg-multipart\\config\\config.default.js",
+    "tmpdir": "D:\\20190123\\clubts\\node_modules\\egg-multipart\\config\\config.default.js",
     "cleanSchedule": {
-      "cron": "E:\\clubts\\node_modules\\egg-multipart\\config\\config.default.js"
+      "cron": "D:\\20190123\\clubts\\node_modules\\egg-multipart\\config\\config.default.js"
     }
   },
   "development": {
-    "watchDirs": "E:\\clubts\\node_modules\\egg-development\\config\\config.default.js",
-    "ignoreDirs": "E:\\clubts\\node_modules\\egg-development\\config\\config.default.js",
-    "fastReady": "E:\\clubts\\node_modules\\egg-development\\config\\config.default.js",
-    "reloadOnDebug": "E:\\clubts\\node_modules\\egg-development\\config\\config.default.js",
-    "overrideDefault": "E:\\clubts\\node_modules\\egg-development\\config\\config.default.js"
+    "watchDirs": "D:\\20190123\\clubts\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "D:\\20190123\\clubts\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "D:\\20190123\\clubts\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "D:\\20190123\\clubts\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "D:\\20190123\\clubts\\node_modules\\egg-development\\config\\config.default.js"
   },
   "logrotator": {
-    "filesRotateByHour": "E:\\clubts\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "hourDelimiter": "E:\\clubts\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "filesRotateBySize": "E:\\clubts\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxFileSize": "E:\\clubts\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxFiles": "E:\\clubts\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "rotateDuration": "E:\\clubts\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxDays": "E:\\clubts\\node_modules\\egg-logrotator\\config\\config.default.js"
+    "filesRotateByHour": "D:\\20190123\\clubts\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "D:\\20190123\\clubts\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "D:\\20190123\\clubts\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "D:\\20190123\\clubts\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "D:\\20190123\\clubts\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "D:\\20190123\\clubts\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "D:\\20190123\\clubts\\node_modules\\egg-logrotator\\config\\config.default.js"
   },
   "nunjucks": {
-    "autoescape": "E:\\clubts\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
-    "throwOnUndefined": "E:\\clubts\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
-    "trimBlocks": "E:\\clubts\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
-    "lstripBlocks": "E:\\clubts\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
-    "cache": "E:\\clubts\\node_modules\\egg-view-nunjucks\\config\\config.local.js"
+    "autoescape": "D:\\20190123\\clubts\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "throwOnUndefined": "D:\\20190123\\clubts\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "trimBlocks": "D:\\20190123\\clubts\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "lstripBlocks": "D:\\20190123\\clubts\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "cache": "D:\\20190123\\clubts\\node_modules\\egg-view-nunjucks\\config\\config.local.js"
   },
-  "env": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-  "name": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-  "proxy": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-  "protocolHeaders": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-  "ipHeaders": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-  "hostHeaders": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
+  "env": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+  "name": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
   "pkg": {
-    "name": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-    "version": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-    "description": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-    "private": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
+    "name": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+    "version": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+    "description": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+    "private": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
     "egg": {
-      "typescript": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "declarations": "E:\\clubts\\node_modules\\egg\\config\\config.default.js"
+      "typescript": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "declarations": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js"
     },
     "scripts": {
-      "start": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "stop": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "dev": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "debug": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "test-local": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "test": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "cov": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "tsc": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "ci": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "autod": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "lint": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "clean": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "build": "E:\\clubts\\node_modules\\egg\\config\\config.default.js"
+      "start": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "stop": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "dev": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "debug": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "test-local": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "test": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "cov": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "tsc": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "ci": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "autod": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "lint": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "clean": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "build": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js"
     },
     "dependencies": {
-      "@babel/runtime": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "@types/jquery": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "@types/lodash": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "egg": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "egg-scripts": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "egg-view-nunjucks": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "jquery": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "lodash": "E:\\clubts\\node_modules\\egg\\config\\config.default.js"
+      "@babel/runtime": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "@types/jquery": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "@types/lodash": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "egg": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "egg-scripts": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "egg-view-nunjucks": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "jquery": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "lodash": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js"
     },
     "devDependencies": {
-      "@babel/core": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "@babel/plugin-transform-runtime": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "@babel/preset-env": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "@types/mocha": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "@types/node": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "@types/supertest": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "autod": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "autod-egg": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "babel-loader": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "easywebpack-cli": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "easywebpack-html": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "egg-bin": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "egg-ci": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "egg-mock": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "egg-ts-helper": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "egg-webpack": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "imagemin-webpack-plugin": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "node-sass": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "sass-loader": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "sass-resources-loader": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "ts-loader": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "tslib": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "tslint": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "tslint-config-egg": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "typescript": "E:\\clubts\\node_modules\\egg\\config\\config.default.js"
+      "@babel/core": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "@babel/plugin-transform-runtime": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "@babel/preset-env": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "@types/mocha": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "@types/node": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "@types/supertest": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "autod": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "autod-egg": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "babel-loader": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "easywebpack-cli": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "easywebpack-html": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "egg-bin": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "egg-ci": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "egg-mock": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "egg-ts-helper": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "egg-webpack": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "ejs-loader": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "html-withimg-loader": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "imagemin-webpack-plugin": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "node-sass": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "sass-loader": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "sass-resources-loader": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "ts-loader": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "tslib": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "tslint": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "tslint-config-egg": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "typescript": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js"
     },
     "engines": {
-      "node": "E:\\clubts\\node_modules\\egg\\config\\config.default.js"
+      "node": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js"
     },
     "ci": {
-      "version": "E:\\clubts\\node_modules\\egg\\config\\config.default.js"
+      "version": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js"
     },
     "repository": {
-      "type": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "url": "E:\\clubts\\node_modules\\egg\\config\\config.default.js"
+      "type": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "url": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js"
     },
-    "eslintIgnore": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-    "author": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-    "license": "E:\\clubts\\node_modules\\egg\\config\\config.default.js"
+    "eslintIgnore": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+    "author": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+    "license": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js"
   },
-  "baseDir": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-  "HOME": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-  "rundir": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
+  "baseDir": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
   "dump": {
-    "ignore": "E:\\clubts\\node_modules\\egg\\config\\config.default.js"
+    "ignore": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js"
   },
   "confusedConfigurations": {
-    "bodyparser": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-    "notFound": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-    "sitefile": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-    "middlewares": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-    "httpClient": "E:\\clubts\\node_modules\\egg\\config\\config.default.js"
+    "bodyparser": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js"
   },
   "notfound": {
-    "pageUrl": "E:\\clubts\\node_modules\\egg\\config\\config.default.js"
+    "pageUrl": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js"
   },
   "siteFile": {
-    "/favicon.ico": "E:\\clubts\\node_modules\\egg\\config\\config.default.js"
+    "/favicon.ico": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js"
   },
   "bodyParser": {
-    "enable": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-    "encoding": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-    "formLimit": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-    "jsonLimit": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-    "strict": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
+    "enable": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+    "strict": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
     "queryString": {
-      "arrayLimit": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "depth": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "parameterLimit": "E:\\clubts\\node_modules\\egg\\config\\config.default.js"
+      "arrayLimit": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "depth": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "logger": {
-    "dir": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-    "encoding": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-    "env": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-    "level": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-    "consoleLevel": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-    "disableConsoleAfterReady": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-    "outputJSON": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-    "buffer": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-    "appLogName": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-    "coreLogName": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-    "agentLogName": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-    "errorLogName": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
+    "dir": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+    "env": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+    "level": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
     "coreLogger": {
-      "consoleLevel": "E:\\clubts\\node_modules\\egg\\config\\config.local.js"
+      "consoleLevel": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.local.js"
     },
-    "allowDebugAtProd": "E:\\clubts\\node_modules\\egg\\config\\config.default.js"
+    "allowDebugAtProd": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js"
   },
   "httpclient": {
-    "enableDNSCache": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-    "dnsCacheLookupInterval": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-    "dnsCacheMaxLength": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
+    "enableDNSCache": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
     "request": {
-      "timeout": "E:\\clubts\\node_modules\\egg\\config\\config.default.js"
+      "timeout": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js"
     },
     "httpAgent": {
-      "keepAlive": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "freeSocketTimeout": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "maxSockets": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "maxFreeSockets": "E:\\clubts\\node_modules\\egg\\config\\config.default.js"
+      "keepAlive": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js"
     },
     "httpsAgent": {
-      "keepAlive": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "freeSocketTimeout": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "maxSockets": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "maxFreeSockets": "E:\\clubts\\node_modules\\egg\\config\\config.default.js"
+      "keepAlive": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "meta": {
-    "enable": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-    "logging": "E:\\clubts\\node_modules\\egg\\config\\config.default.js"
+    "enable": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+    "logging": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js"
   },
-  "coreMiddleware": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-  "workerStartTimeout": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-  "serverTimeout": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
+  "coreMiddleware": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+  "serverTimeout": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
   "cluster": {
     "listen": {
-      "path": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "port": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-      "hostname": "E:\\clubts\\node_modules\\egg\\config\\config.default.js"
+      "path": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "port": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "clusterClient": {
-    "maxWaitTime": "E:\\clubts\\node_modules\\egg\\config\\config.default.js",
-    "responseTimeout": "E:\\clubts\\node_modules\\egg\\config\\config.default.js"
+    "maxWaitTime": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js"
   },
-  "onClientError": "E:\\clubts\\node_modules\\egg\\config\\config.default.js"
+  "onClientError": "D:\\20190123\\clubts\\node_modules\\egg\\config\\config.default.js"
 }
