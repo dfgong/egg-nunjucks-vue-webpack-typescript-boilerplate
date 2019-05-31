@@ -3,6 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const glob = require('glob');
 const path = require('path');
 const cdn = process.env === 'product'? 'https://cdnxxx.com': '';
+const VueLoaderPlugin = require('vue-loader/lib/plugin')
 
 // 入口处理
 const entry = 'app/web/page/**/*.ts';
@@ -137,7 +138,7 @@ module.exports = {
              options: {
                presets: ['@babel/preset-env']
              }
-            },
+          },
           {
             test: /\.ts(x?)$/,
             exclude: /node_modules/,
@@ -152,6 +153,10 @@ module.exports = {
                 loader: 'ts-loader'
               }
             ]
+          },
+          {
+            test: /\.vue$/,
+            loader: "vue-loader"
           },
         ]
       },
@@ -179,6 +184,10 @@ module.exports = {
               jQuery: 'jquery'
             }
           }
+        },
+        {
+          // env: 'dev',
+          name: new VueLoaderPlugin()
         }
     ],
     customize(webpackConfig) {

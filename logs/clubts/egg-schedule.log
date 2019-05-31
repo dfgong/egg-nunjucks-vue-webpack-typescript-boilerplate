@@ -16,3 +16,77 @@
 2019-03-26 15:00:53,018 INFO 3528 [egg-schedule]: register schedule D:\20190123\clubts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
 2019-03-26 15:01:05,040 INFO 7092 [egg-schedule]: register schedule D:\20190123\clubts\node_modules\egg-logrotator\app\schedule\clean_log.js
 2019-03-26 15:01:05,040 INFO 7092 [egg-schedule]: register schedule D:\20190123\clubts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-31 16:49:24,387 INFO 1776 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-31 16:49:24,387 INFO 1776 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-31 16:49:24,645 INFO 8092 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-31 16:49:24,645 INFO 8092 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-31 16:49:31,518 INFO 10832 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-31 16:49:31,518 INFO 10832 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-31 16:49:25,268 INFO 2664 [Timer] D:\clubts\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 25834746ms at 2019-06-01 00:00:00.014
+2019-05-31 16:49:25,270 INFO 2664 [Timer] D:\clubts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 25835730ms at 2019-06-01 00:00:01.000
+2019-05-31 16:50:48,589 INFO 9416 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-31 16:50:48,590 INFO 9416 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-31 17:02:53,732 INFO 6860 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-31 17:02:53,732 INFO 6860 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-31 17:03:46,430 INFO 7268 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-31 17:03:46,431 INFO 7268 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-31 17:04:01,853 INFO 6876 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-31 17:04:01,853 INFO 6876 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-31 17:04:12,715 INFO 9912 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-31 17:04:12,715 INFO 9912 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-31 17:04:42,637 INFO 7208 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-31 17:04:42,637 INFO 7208 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-31 17:06:12,925 INFO 10688 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-31 17:06:12,925 INFO 10688 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-31 17:07:18,729 INFO 7372 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-31 17:07:18,729 INFO 7372 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-31 17:07:23,116 INFO 8788 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-31 17:07:23,116 INFO 8788 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-31 17:33:17,460 INFO 8752 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-31 17:33:17,460 INFO 8752 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-31 17:33:17,722 INFO 3988 [Timer] D:\clubts\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 23202283ms at 2019-06-01 00:00:00.005
+2019-05-31 17:33:17,722 INFO 3988 [Timer] D:\clubts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 23203278ms at 2019-06-01 00:00:01.000
+2019-05-31 17:35:13,608 INFO 7660 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-31 17:35:13,608 INFO 7660 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-31 17:35:14,064 INFO 6876 [Timer] D:\clubts\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 23085952ms at 2019-06-01 00:00:00.016
+2019-05-31 17:35:14,066 INFO 6876 [Timer] D:\clubts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 23086935ms at 2019-06-01 00:00:01.001
+2019-05-31 17:36:32,098 INFO 10748 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-31 17:36:32,099 INFO 10748 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-31 17:36:40,333 INFO 8744 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-31 17:36:40,333 INFO 8744 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-31 17:37:31,329 INFO 5840 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-31 17:37:31,329 INFO 5840 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-31 17:37:36,287 INFO 7772 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-31 17:37:36,287 INFO 7772 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-31 17:38:32,066 INFO 9224 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-31 17:38:32,066 INFO 9224 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-31 17:38:36,815 INFO 9168 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-31 17:38:36,816 INFO 9168 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-31 17:39:14,279 INFO 9100 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-31 17:39:14,279 INFO 9100 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-31 17:40:47,360 INFO 8912 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-31 17:40:47,360 INFO 8912 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-31 17:47:13,611 INFO 8744 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-31 17:47:13,611 INFO 8744 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-31 17:48:36,548 INFO 7428 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-31 17:48:36,548 INFO 7428 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-31 17:49:57,192 INFO 9308 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-31 17:49:57,192 INFO 9308 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-31 17:52:20,132 INFO 4364 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-31 17:52:20,133 INFO 4364 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-31 17:52:56,260 INFO 7216 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-31 17:52:56,260 INFO 7216 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-31 17:52:56,633 INFO 5884 [Timer] D:\clubts\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 22023378ms at 2019-06-01 00:00:00.011
+2019-05-31 17:52:56,633 INFO 5884 [Timer] D:\clubts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 22024367ms at 2019-06-01 00:00:01.000
+2019-05-31 17:57:16,145 INFO 2372 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-31 17:57:16,145 INFO 2372 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-31 17:57:58,792 INFO 6600 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-31 17:57:58,792 INFO 6600 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-31 17:58:53,902 INFO 2372 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-31 17:58:53,902 INFO 2372 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-31 17:59:48,458 INFO 1160 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-31 17:59:48,458 INFO 1160 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-31 18:00:15,115 INFO 8772 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-31 18:00:15,116 INFO 8772 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-31 18:05:56,916 INFO 8508 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-31 18:05:56,916 INFO 8508 [egg-schedule]: register schedule D:\clubts\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
