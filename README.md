@@ -17,6 +17,7 @@ Don't tsc compile at development mode, if you had run `tsc` then you need to `np
 ### Deploy
 
 ```bash
+$ npm run build
 $ npm run tsc
 $ npm start
 ```
@@ -31,3 +32,9 @@ $ npm start
 
 - Node.js 8.x
 - Typescript 2.8+
+
+### 注意点
+- app/web，页面入口为page下的ts文件
+- egg-view-nunjucks
+- html-withimg-loader用于html片段的引用
+- node端ts用tsconfig编译，前端ts用ts-loader编译。

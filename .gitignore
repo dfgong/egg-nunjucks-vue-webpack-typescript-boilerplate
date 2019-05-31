@@ -1,0 +1,12 @@
+logs/
+node_modules/
+coverage/
+.idea/
+run/
+.vscode
+.DS_Store
+
+app/view/*
+app/public/
+public/manifest.json
+public
