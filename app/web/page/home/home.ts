@@ -6,12 +6,12 @@ if ((module as any).hot) {
 import './home.scss';
 import Vue from 'vue';
 import Home from './home.vue';
+
 new Vue({
     el: '#app',
-    components: {
-        Home
-    }
-});
+    render: h => h(Home)
+})
+
 
 
 

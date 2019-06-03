@@ -150,7 +150,8 @@ module.exports = {
                 }
               },
               {
-                loader: 'ts-loader'
+                loader: 'ts-loader',
+                options: { appendTsSuffixTo: [/\.vue$/] }
               }
             ]
           },
