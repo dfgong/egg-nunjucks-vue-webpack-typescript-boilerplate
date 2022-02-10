@@ -51,7 +51,7 @@
     "egg-webpack": "^4.4.9",
     "html-withimg-loader": "^0.1.16",
     "imagemin-webpack-plugin": "^2.4.0",
-    "node-sass": "^4.11.0",
+    "node-sass": "^7.0.0",
     "sass-loader": "^7.1.0",
     "sass-resources-loader": "^2.0.0",
     "ts-loader": "^5.3.3",
