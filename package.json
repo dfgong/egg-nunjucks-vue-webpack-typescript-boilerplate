@@ -44,7 +44,7 @@
     "babel-loader": "^8.0.0-beta.0",
     "easywebpack-cli": "^4.3.4",
     "easywebpack-html": "^4.0.0",
-    "egg-bin": "^4.11.0",
+    "egg-bin": "^4.20.0",
     "egg-ci": "^1.8.0",
     "egg-mock": "^3.16.0",
     "egg-ts-helper": "^1.23.0",
