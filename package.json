@@ -27,7 +27,7 @@
     "egg-alinode": "^2.0.1",
     "egg-scripts": "^2.6.0",
     "egg-view-nunjucks": "^2.2.0",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "vue": "^2.6.10",
     "vue-class-component": "^7.1.0",
     "vue-property-decorator": "^8.1.1"
